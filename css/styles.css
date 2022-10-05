@@ -1,0 +1,318 @@
+:root {
+   --title-text-color: #212121;
+   --accent-color: #2196f3;
+   --primary-white-color: #ffffff;
+   --primaty-text-color: #757575;
+   --title-text-color: #212121;
+   --bg-team-color: #f5f4fa;
+
+}
+
+.list {
+list-style: none;
+margin: 0;
+}
+
+.visually-hidden {
+      position: absolute;
+      white-space: nowrap;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      border: 0;
+      padding: 0;
+      clip: rect(0 0 0 0);
+      clip-path: inset(50%);
+      margin: -1px;
+  }
+
+
+
+body {
+    background-color: #ffffff;
+    color: var(--primaty-text-color);
+
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+    outline: 2px solid red;
+}
+
+
+/* CSS для Index.html */
+
+/* Хедер index.html і portfilio.html*/
+
+.logo {
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+
+    cursor: pointer;
+}
+.logo-web{
+    color: #2196f3; 
+}
+
+.logo-studio{
+    color: #000000;   
+}
+.site-nav-link {
+    color: var(--title-text-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+
+    cursor: pointer;
+
+}
+.site-nav-link:hover,
+.site-nav-link:focus {
+    color: var(--accent-color); 
+}
+
+.site-nav-link.current {
+    color: var(--accent-color);
+}
+
+/* Контакти */
+
+.contacts {
+    margin: 0;
+}
+.contacts-link {
+    color: var(--primaty-text-color); 
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+    color: var(--accent-color); 
+} 
+/* Мейн */
+/* фон герою додав щоб було видно заголовок */
+
+/* Герой */
+.hero{
+    background-color: #2f303a; 
+}
+
+
+.hero-title {
+    color: #ffffff; 
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    height: 120px;
+    width: 696px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+ 
+}
+
+.hero-button{
+    background-color: var(--accent-color); 
+    color: var(--primary-white-color);   
+    
+    font-style: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+
+
+    padding: 10px 32px;
+    border: 0px solid transparent;
+    border-radius: 4px;
+    text-align: center;
+  
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background: #188CE8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+ /* Переваги */
+
+.advantages-secondary-title {
+    color: var(--title-text-color);
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.advantages-text {
+    font-size: 14px;
+    line-height: 1.71;
+
+    margin: 0px;
+}
+
+/* Чим ми займаємось */
+
+.section-title {
+    color: var(--title-text-color);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+
+}
+
+/* Наша команда */
+
+.section-team {
+    background-color: #f5f4fA;;
+}
+.team-title {
+    color: var(--title-text-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+.team-cards {
+    background: #ffffff
+}
+
+.team-text {
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+
+/* Футер index.html і portfilio.html*/
+.footer{
+    background-color: #2f303a; 
+}
+
+.logo-footer{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+
+    cursor: pointer;
+}
+
+.logo-web-footer{
+    color: #2196f3; 
+}
+
+.logo-studio-footer{
+    color: #ffffff; 
+}
+
+.footer-maps-link {
+    color: #ffffff;
+
+    font-style: normal;
+    font-weight: 400; 
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
+
+    cursor: pointer;
+}
+
+.footer-contact-link {
+    color: #757575;
+ 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
+
+    cursor: pointer;
+}
+
+.footer-maps-link:hover,
+.footer-contact-link:hover {
+    color: var(--accent-color);
+}
+
+.footer-maps-link:focus,
+.footer-contact-link:focus {
+    color: var(--accent-color);
+}
+
+
+
+
+/* CSS для portfolio.html */
+
+.portfolio-button {
+    background: #f5F4fA;
+    border-radius: 4px;
+}
+
+.portfolio-button-filter {
+    color: #212121;
+    background-color: #f5f4fA;
+
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+
+    cursor: pointer;
+}
+
+
+.portfolio-button-filter:hover{
+    color: #ffffff;
+    background: #2196f3;
+
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    
+}
+
+.portfolio-title {
+    color: var(--title-text-color);
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.portfolio-text {
+    font-size: 16px;
+    line-height: 1.9;
+}

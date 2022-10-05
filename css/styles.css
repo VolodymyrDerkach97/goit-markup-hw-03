@@ -8,10 +8,7 @@
 
 }
 
-.list {
-list-style: none;
-margin: 0;
-}
+
 
 .visually-hidden {
       position: absolute;
@@ -35,6 +32,18 @@ body {
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.03em;
 }
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    outline: 3px dashed green;
+}
+
+.list {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    }
 
 .container {
     width: 100%;
@@ -91,7 +100,7 @@ body {
 /* Контакти */
 
 .contacts {
-    margin: 0;
+    margin: 0px;
 }
 .contacts-link {
     color: var(--primaty-text-color); 
@@ -189,11 +198,19 @@ body {
     line-height: 1.17;
     text-align: center;
 
+    margin-top: 0px;
+    margin-bottom: 50px;
+
+}
+
+.section.list {
+    padding-top: 0px;
+    padding-bottom: 94px; 
 }
 
 /* Наша команда */
 
-.section-team {
+.section.team {
     background-color: #f5f4fA;;
 }
 .team-title {
@@ -202,6 +219,9 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
+
+    margin-top: 0px;
+    margin-bottom: 10px;
 }
 
 .team-cards {
@@ -211,22 +231,35 @@ body {
 .team-text {
     font-size: 16px;
     line-height: 1.19;
+
+    margin-top: 0px;
 }
 
 
 /* Футер index.html і portfilio.html*/
 .footer{
     background-color: #2f303a; 
+
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .logo-footer{
+    display: inline-block;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     text-decoration: none;
-
     cursor: pointer;
+
+    margin-bottom: 20px;
+}
+
+.footer-maps-link,
+.footer-contact-link {
+    display: inline-block;
+    margin-bottom: 9px;
 }
 
 .logo-web-footer{
@@ -277,8 +310,8 @@ body {
 /* CSS для portfolio.html */
 
 .portfolio-button {
-    background: #f5F4fA;
-    border-radius: 4px;
+    background: var(--primary-white-color);
+    margin-bottom: 34px;
 }
 
 .portfolio-button-filter {
@@ -289,8 +322,15 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
-
     cursor: pointer;
+
+    padding: 6px 22px;
+
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
+    0px 1px 2px rgba(0, 0, 0, 0.08), 
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+    border: 0px solid transparent;
+    border-radius: 4px;
 }
 
 
@@ -310,9 +350,15 @@ body {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+
+    margin-top: 0px;
+    margin-bottom: 4px;
 }
 
 .portfolio-text {
     font-size: 16px;
     line-height: 1.9;
+
+    margin-top: 0px;
+    margin-bottom: 20px;
 }

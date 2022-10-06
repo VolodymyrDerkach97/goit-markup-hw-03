@@ -19,38 +19,36 @@
   </head>
   <body>
     <header>
-      <div class="container">
-        <div>
-          <nav>
-            <a href="./index.html" lang="en" class="logo">
-              <span class="logo-web">Web</span
-              ><span class="logo-studio">Studio</span>
-            </a>
-            <ul class="site-nav list">
-              <li>
-                <a class="site-nav-link current" href="./index.html">Студія</a>
-              </li>
-              <li>
-                <a class="site-nav-link" href="./portfolio.html">Портфоліо</a>
-              </li>
-              <li><a class="site-nav-link" href="#">Контакти</a></li>
-            </ul>
-          </nav>
-        </div>
-        <div>
-          <ul class="contacts list">
-            <li>
-              <a class="contacts-link" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
+      <div class="container navigation">
+        <nav class="site-nav">
+          <a href="./index.html" lang="en" class="logo">
+            <span class="logo-web">Web</span
+            ><span class="logo-studio">Studio</span>
+          </a>
+          <ul class="site-nav list">
+            <li class="site-nav-item">
+              <a class="site-nav-link current" href="./index.html">Студія</a>
             </li>
-            <li>
-              <a class="contacts-link" href="tel:+380961111111"
-                >+38 096 111 11 11</a
-              >
+            <li class="site-nav-item">
+              <a class="site-nav-link" href="./portfolio.html">Портфоліо</a>
+            </li>
+            <li class="site-nav-item">
+              <a class="site-nav-link" href="#">Контакти</a>
             </li>
           </ul>
-        </div>
+        </nav>
+        <ul class="contacts list">
+          <li class="site-nav-item">
+            <a class="contacts-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="site-nav-item">
+            <a class="contacts-link" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
       </div>
     </header>
     <main>
@@ -63,28 +61,28 @@
       <section class="section">
         <div class="container">
           <h2 class="visually-hidden">Основні переваги</h2>
-          <ul class="list">
-            <li>
+          <ul class="advantages-list list">
+            <li class="avantages-item">
               <h3 class="advantages-secondary-title">Увага до деталей</h3>
               <p class="advantages-text">
                 Ідейні міркування, і навіть початок повсякденної роботи з
                 формування позиції.
               </p>
             </li>
-            <li>
+            <li class="avantages-item">
               <h3 class="advantages-secondary-title">Пунктуальність</h3>
               <p class="advantages-text">
                 Завдання організації, особливо рамки і місце навчання кадрів
                 тягне у себе.
               </p>
             </li>
-            <li>
+            <li class="avantages-item">
               <h3 class="advantages-secondary-title">Планування</h3>
               <p class="advantages-text">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
-            <li>
+            <li class="avantages-item">
               <h3 class="advantages-secondary-title">Сучасні технології</h3>
               <p class="advantages-text">
                 Значимість цих проблем настільки очевидна, що реалізація
@@ -96,23 +94,23 @@
       </section>
       <section class="section list">
         <div class="container">
-          <h2 class="section-title">Чим ми займаємося</h2>
-          <ul class="list">
-            <li>
+          <h2 class="section-title centered">Чим ми займаємося</h2>
+          <ul class="price-list list">
+            <li class="price-list-item">
               <img
                 src="./images/box1.jpg"
                 alt="людина працює за компютером"
                 width="370"
               />
             </li>
-            <li>
+            <li class="price-list-item">
               <img
                 src="./images/box2.jpg"
                 alt="людина переглядає сайт"
                 width="370"
               />
             </li>
-            <li>
+            <li class="price-list-item">
               <img
                 src="./images/box3.jpg"
                 alt="людина вибирає колір "
@@ -124,10 +122,10 @@
       </section>
       <section class="section team">
         <div class="container">
-          <h2 class="section-title">Наша команда</h2>
-          <ul class="list">
+          <h2 class="section-title centered">Наша команда</h2>
+          <ul class="team-list list">
             <li class="team-cards">
-              <img
+              <img class="team-photo"
                 src="./images/igor.jpg"
                 alt="Ігор Дем'яненко"
                 width="270"
@@ -137,7 +135,7 @@
               <p class="team-text" lang="en">Product Designer</p>
             </li>
             <li class="team-cards">
-              <img
+              <img class="team-photo"
                 src="./images/olga.jpg"
                 alt="Ольга Рєпіна"
                 width="270"
@@ -147,7 +145,7 @@
               <p class="team-text" lang="en">Frontend Developer</p>
             </li>
             <li class="team-cards">
-              <img
+              <img class="team-photo"
                 src="./images/mukola.jpg"
                 alt="Микола Тарасов"
                 width="270"
@@ -157,7 +155,7 @@
               <p class="team-text" lang="en">Marketing</p>
             </li>
             <li class="team-cards">
-              <img
+              <img class="team-photo"
                 src="./images/myhailo.jpg"
                 alt="Микола Тарасов"
                 width="270"
@@ -193,7 +191,7 @@
               >
             </li>
             <li>
-              <a class="footer-contact-link" href="tel:+380961111111"
+              <a class="footer-contact-link tell" href="tel:+380961111111"
                 >+38 096 111 11 11</a
               >
             </li>

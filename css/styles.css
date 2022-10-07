@@ -54,6 +54,11 @@ body {
 
     /* outline: 2px solid red; */
 }
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 
 
 /* CSS для Index.html */
